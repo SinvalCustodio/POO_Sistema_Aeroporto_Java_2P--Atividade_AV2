@@ -1,0 +1,24 @@
+# Arquivos compilados do Java
+*.class
+
+# Arquivos de log
+*.log
+
+# Pastas de build
+/target/
+/bin/
+/out/
+
+# Configurações do Eclipse
+.classpath
+.project
+.settings/
+
+# Configurações do IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db

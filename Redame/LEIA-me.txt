@@ -1,0 +1,10 @@
+\* 
+"Prezados Leitores.
+é com imenso prazer que vos apresento um Sistema de Gerenciamento de Aeroporto, um projeto que desenvolvi em Java para aplicar na prática os quatro pilares da Programação Orientada a Objetos.
+O objetivo d sistema é simular operações do dia a dia de uma companhia aérea, como a criação de voos, a reserva de assentos e o processo de check-in de passageiros.
+Para isso, apliquei a Abstração, criando uma classe Voo que representa a ideia geral de um voo.
+Usei a Herança para especializar essa ideia, com as classes VooNacional e VooInternacional, que herdam as características do Voo mas adicionam suas próprias regras, como documentos diferentes para o check-in.
+O Encapsulamento foi aplicado em todas as classes, protegendo os dados e garantindo que eles só possam ser acessados e modificados da maneira correta, através de métodos públicos.
+E, finalmente, o Polimorfismo pode ser visto no cálculo da taxa de bagagem: o mesmo método se comporta de maneira diferente para um voo nacional e um internacional, aplicando a taxa correta para cada caso.
+Além disso, o sistema também demonstra o tratamento de exceções, com a criação de uma exceção personalizada, a VooLotadoException, que é lançada e tratada de forma elegante quando alguém tenta reservar um assento em um voo que já está cheio.
+O projeto foi todo estruturado em pacotes e segue as boas práticas de desenvolvimento em Java. Obrigado!" */
